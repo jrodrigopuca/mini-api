@@ -1,0 +1,12 @@
+{
+    "name": "juan/mini-api",
+    "authors": [
+        {
+            "name": "jarp",
+            "email": "r@geeks.ms"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.4.1"
+    }
+}
