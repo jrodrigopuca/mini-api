@@ -23,6 +23,12 @@ Route::add('/api/productos', function() {
     echo agregarProducto(json_decode(file_get_contents('php://input')));
 }, 'post');
 
+Route::add('/api/productos/multiple', function() {
+    echo agregarMultiplesProductos(
+            json_decode(file_get_contents('php://input'))
+        );
+
+}, 'post');
 
 Route::run('/');
 ?>
